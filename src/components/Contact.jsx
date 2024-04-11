@@ -38,7 +38,7 @@ const Contact = () => {
         className='flex-[0.75] bg-white p-8 rounded-2xl'
       >
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-        <p className={styles.sectionSubText}>Get in touch</p><br />
+        {/* <p className="text-black text-2xl text-center underline">GET IN TOUCH</p><br /> */}
         <p className={styles.sectionSubText}>Name:       &nbsp;Shahnawaz Nazim Ali Hudani</p>
         <p className={styles.sectionSubText}>Call/Whatsapp:       &nbsp;03162334509 </p>
         <p className={styles.sectionSubText}>Email:       &nbsp;shahnawaz.nazimali@gmail.com </p>

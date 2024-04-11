@@ -80,11 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-primary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          I have followed Project Based Learning Approach to learn NextJS along with FastAPI, OpenAI & Langchain. Therefore, I have followed several project based tutorials from Youtube mostly from Channel: CodeWithHarry, CodeWithAntonio and so on. <span className="font-bold">However I haven't developed any project on my own except Todo APP which was our class assignment. </span>I have developed its backend in FastAPI, Postgres Neon and Front End in NextJS. Other Projects have been followed from Youtube Courses Videos.
         </motion.p>
       </div>
 
