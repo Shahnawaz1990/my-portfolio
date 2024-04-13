@@ -32,6 +32,7 @@ import accounts from "./company/accounts.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import netflix from "./netflix.png";
 
 export {
   logo,
@@ -63,5 +64,6 @@ export {
   fastapi,
   python,
   openai,
-  langchain
+  langchain,
+  netflix
 };

@@ -24,6 +24,7 @@ import {
   python,
   langchain,
   openai,
+  netflix
 } from "../assets";
 
 export const navLinks = [
@@ -59,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Generative AI Devloper",
+    title: "Generative AI Developer",
     icon: creator,
   },
 ];
@@ -110,12 +111,12 @@ const technologies = [
     icon: nextjs,
   },
   {
-    name: "fastapi",
-    icon: fastapi,
-  },
-  {
     name: "python",
     icon: python,
+  },
+  {
+    name: "fastapi",
+    icon: fastapi,
   },
   {
     name: "langchain",
@@ -190,66 +191,96 @@ const testimonials = [
 const projects = [
   {
     name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
+    // follow: "COURSE FOLLOWED FROM: ",
+    // follow_link: "https://youtube.com/",
+    git: "GITHUB REPO: ",
     source_code_link: "https://github.com/",
+    video: "Video: ",
+    video_link: "https://google.com/",
+    image: carrent,
+    
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    name: "Netflix Clone",
+    follow: "COURSE FOLLOWED FROM: ",
+    follow_link: "https://www.youtube.com/watch?v=mqUN4N2q4qY",
+    git: "GITHUB REPO: ",
+    source_code_link: "https://github.com/Shahnawaz1990/netflix-clone",
+    video: "Video: ",
+    video_link: "https://drive.google.com/file/d/1uMjnRVCs26vREiEniynd8INqVR1_ay_T/view?usp=sharing",
+    image: netflix,
+    deploy: "Deployed at: ",
+    dep_link: "https://netflix-clone-beta-liart-44.vercel.app/auth",
+    
   },
   {
     name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    follow: "COURSE FOLLOWED FROM: ",
+    follow_link: "https://youtube.com/",
+    git: "GITHUB REPO: ",
     source_code_link: "https://github.com/",
+    video: "Video: ",
+    video_link: "https://google.com/",
+    image: tripguide,
+    deploy: "Deployed at: ",
+    dep_link: "https://vercel.com/",
+  },
+  {
+    name: "Trip Guide",
+    follow: "COURSE FOLLOWED FROM: ",
+    follow_link: "https://youtube.com/",
+    git: "GITHUB REPO: ",
+    source_code_link: "https://github.com/",
+    video: "Video: ",
+    video_link: "https://google.com/",
+    image: tripguide,
+    deploy: "Deployed at: ",
+    dep_link: "https://vercel.com/",
+  },
+  {
+    name: "Job IT",
+    follow: "COURSE FOLLOWED FROM: ",
+    follow_link: "https://youtube.com/",
+    git: "GITHUB REPO: ",
+    source_code_link: "https://github.com/",
+    video: "Video: ",
+    video_link: "https://google.com/",
+    image: jobit,
+    
+  },
+  {
+    name: "Job IT",
+    follow: "COURSE FOLLOWED FROM: ",
+    follow_link: "https://youtube.com/",
+    git: "GITHUB REPO: ",
+    source_code_link: "https://github.com/",
+    video: "Video: ",
+    video_link: "https://google.com/",
+    image: jobit,
+    
+  },
+  {
+    name: "Trip Guide",
+    follow: "COURSE FOLLOWED FROM: ",
+    follow_link: "https://youtube.com/",
+    git: "GITHUB REPO: ",
+    source_code_link: "https://github.com/",
+    video: "Video: ",
+    video_link: "https://google.com/",
+    image: tripguide,
+    deploy: "Deployed at: ",
+    dep_link: "https://vercel.com/",
+  },
+  {
+    name: "Job IT",
+    follow: "COURSE FOLLOWED FROM: ",
+    follow_link: "https://youtube.com/",
+    git: "GITHUB REPO: ",
+    source_code_link: "https://github.com/",
+    video: "Video: ",
+    video_link: "https://google.com/",
+    image: jobit,
+    
   },
 ];
 

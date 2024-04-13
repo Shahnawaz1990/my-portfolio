@@ -7,7 +7,7 @@ const App = () => {
   const [allowed, setAllowed] = useState(false)
   const [password, setPassword] = useState("")
   const handleChange = (e) => {
-    console.log(e.target.value);
+    // console.log(e.target.value);
     setPassword(e.target.value);
   };
 
