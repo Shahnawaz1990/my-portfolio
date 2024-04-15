@@ -31,9 +31,9 @@ const ProjectCard = ({
     //       speed: 450,
     //     }}
     <div
-      className={`${name === "Car Rent" ? 'bg-tertiary p-5 rounded-2xl w-full ' : 'bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'}`}
+      className={`${name === "Todo App" ? 'bg-tertiary p-5 rounded-2xl w-full ' : 'bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'}`}
     >
-      <div className={`${name === "Car Rent" ? 'relative w-full h-[430px]' : 'relative w-full h-[230px]'}`}>
+      <div className={`${name === "Todo App" ? 'relative w-full h-[430px]' : 'relative w-full h-[230px]'}`}>
         <img
           src={image}
           alt='project_image'

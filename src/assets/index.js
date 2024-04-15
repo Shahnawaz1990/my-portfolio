@@ -33,6 +33,29 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import netflix from "./netflix.png";
+import todoapp from "./todoapp.png";
+import twitter from "./twitter.png";
+import messenger from "./messenger.png";
+import airbnb from "./airbnb.png";
+import ecommerce from "./ecommerce.png";
+import aisaas from "./aisaas.png";
+import aicompanion from "./aicompanion.png";
+import quizzy from "./quizzy.png";
+import course from "./course.png";
+import notion from "./notion.png";
+import pdfchatnextjs from "./pdfchatnextjs.png";
+import chatpdfpython from "./chatpdfpython.png";
+import multiplechatpdf from "./multiplechatpdf.png";
+import discordbot from "./discordbot.png";
+import dalleimage from "./dalleimage.png";
+import langchaintesting from "./langchaintesting.png";
+import langchainarticle from "./langchainarticle.png";
+import aivoiceassisted from "./aivoiceassisted.png";
+import openaiwhisper from "./openaiwhisper.png";
+import codeswear from "./codeswear.png";
+import inventory from "./inventory.png";
+import portfolio from "./portfolio.png";
+
 
 export {
   logo,
@@ -65,5 +88,27 @@ export {
   python,
   openai,
   langchain,
-  netflix
+  netflix,
+  todoapp,
+  twitter,
+  messenger,
+  airbnb,
+  ecommerce,
+  aisaas,
+  aicompanion,
+  quizzy,
+  course,
+  notion,
+  pdfchatnextjs,
+  chatpdfpython,
+  multiplechatpdf,
+  discordbot,
+  dalleimage,
+  langchaintesting,
+  langchainarticle,
+  aivoiceassisted,
+  openaiwhisper,
+  codeswear,
+  inventory,
+  portfolio,
 };
