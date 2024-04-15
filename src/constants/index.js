@@ -321,16 +321,6 @@ const projects = [
     image: course,
   },
   {
-    name: "AI Course",
-    follow: "COURSE FOLLOWED FROM: ",
-    follow_link: "https://www.youtube.com/watch?v=EGW2HS2tqAQ",
-    git: "GITHUB REPO: ",
-    source_code_link: "https://github.com/Shahnawaz1990/course",
-    video: "Video: ",
-    video_link: "https://drive.google.com/file/d/193e1kYw5GDOxFUafJ2bCMP0LUbEePVZ2/view?usp=sharing",
-    image: course,
-  },
-  {
     name: "AI Notes",
     follow: "COURSE FOLLOWED FROM: ",
     follow_link: "https://www.youtube.com/watch?v=olsdGZcRGSQ",
