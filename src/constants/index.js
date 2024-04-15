@@ -267,7 +267,8 @@ const projects = [
     video: "Video: ",
     video_link: "https://drive.google.com/file/d/1YKqCBgOyfnRXWsH6ERkzT0U36w9uWPcB/view?usp=sharing",
     image: airbnb,
-
+    deploy: "Deployed at: ",
+    dep_link: "https://educationairrentbnb.vercel.app",
   },
   {
     name: "E-Commerce",
