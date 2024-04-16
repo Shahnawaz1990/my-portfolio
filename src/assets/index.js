@@ -37,6 +37,7 @@ import todoapp from "./todoapp.png";
 import twitter from "./twitter.png";
 import messenger from "./messenger.png";
 import airbnb from "./airbnb.png";
+import spotify from "./spotify.png";
 import ecommerce from "./ecommerce.png";
 import aisaas from "./aisaas.png";
 import aicompanion from "./aicompanion.png";
@@ -93,6 +94,7 @@ export {
   twitter,
   messenger,
   airbnb,
+  spotify,
   ecommerce,
   aisaas,
   aicompanion,
