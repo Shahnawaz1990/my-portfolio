@@ -4,6 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import youtube from "./youtube.png";
+import videoicon from "./videoicon.png";
+import vercel from "./vercel.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -65,6 +68,9 @@ export {
   mobile,
   web,
   github,
+  youtube,
+  videoicon,
+  vercel,
   menu,
   close,
   css,

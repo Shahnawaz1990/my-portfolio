@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
+import { youtube } from "../assets";
+import { videoicon } from "../assets";
+import { vercel } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -56,9 +59,9 @@ const ProjectCard = ({
             className='black-gradient w-10 h-10 rounded-full justify-center items-center cursor-pointer flex ml-2'
           >
             <img
-              src={github}
+              src={name === "Todo App" ? github : youtube}
               alt='source code'
-              className='w-1/2 h-1/2 object-contain'
+              className='w-full h-full object-contain'
             />
           </div>
         </div>
@@ -88,7 +91,7 @@ const ProjectCard = ({
           className='black-gradient w-10 h-10 rounded-full justify-center items-center cursor-pointer flex ml-2'
         >
           <img
-            src={github}
+            src={videoicon}
             alt='source code'
             className='w-1/2 h-1/2 object-contain'
           />
@@ -105,7 +108,7 @@ const ProjectCard = ({
             className='black-gradient w-10 h-10 rounded-full justify-center items-center cursor-pointer flex ml-2'
           >
             <img
-              src={github}
+              src={vercel}
               alt='source code'
               className='w-1/2 h-1/2 object-contain'
             />
